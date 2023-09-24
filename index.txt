@@ -1,0 +1,65 @@
+=== CSS ===
+- Color:
+  --primary-color: hsl(268, 58%, 48%);
+  --primary-color-alt: hsl(268, 28%, 38%);
+  --secondary-color: hsl(355, 88%, 56%);
+  --secondary-color-alt: hsl(328, 78%, 38%);
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(252, 100%, 87%);
+  --body-color: hsl(268, 58%, 22%);
+
+- Font:
+  --body-font: "Montserrat", sans-serif;
+  --font-family:
+  --font-xs: 12px
+  --font-sm: 14px
+  --font-base: 16px
+  --font-lg: 18px
+  --font-xl: 20px
+  --font-xxl: 24px
+  --font--xxxl: 32px
+
+- Font weight:
+  --font-medium: 500
+  --font-semi-bold: 600
+  --font-bold: 700
+
+- Flex:
+  --flex(dimension, position): default - flex(row, start)
+
+- Grid:
+  --grid(dimension, number): default - grid(col, 2)
+
+- Responsive typography:
+  min-width: 1152px
+
+
+=== HTML ===
+- Header:
+  header
+    nav.nav-container
+      a.nav__logo
+      div.nav__menu#nav-menu
+        ul.nav__list
+          li.nav__item
+            a.nav__link
+        a.nav__button
+        a.nav__close#nav-close
+      a.nav__toggle#nav-toggle
+
+- Body:
+  main
+    .home__container.container
+      .home__content
+        h3.home__subtitle
+        h1.home__title
+          span
+          img
+        .home__description
+    .grid
+      .grid-col-2
+        .flex.flex-col.gap-4
+          p
+          p.title
+          .text
+          button
